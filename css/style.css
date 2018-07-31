@@ -5,8 +5,26 @@ body {
 h1 {
     color: #212933;
     text-align: center;
+    width: 100%;
+    border-bottom: solid 6px;
+}
+
+article {
+    border: 5px solid #212933;
+    background-color: #2E78CC;
+    width: 25%;
+    padding: 10px;
 }
 
 h2 {
+    text-decoration: underline;
     margin-left: 25px;
 }
+
+ol {
+    line-height: 20px;
+}
+
+
+
+
