@@ -1,3 +1,12 @@
+body {
+    background-color: #93C6FF
+}
+
 h1 {
-    color: magenta;
+    color: #212933;
+    text-align: center;
+}
+
+h2 {
+    margin-left: 25px;
 }
