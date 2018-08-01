@@ -80,10 +80,10 @@ function fourthQuestion() {
 function fifthQuestion() {
   var questionAnswer = prompt('Is my daughter\'s name Emma?').toLowerCase();
   if (questionAnswer === 'yes' || questionAnswer === 'y' || questionAnswer === 'no' || questionAnswer === 'n') {
-    if (questionAnswer === 'yes'){
+    if (questionAnswer === 'yes' || questionAnswer === 'y'){
       alert('Correct!');
       return questionAnswer;
-    } 
+    }
     else {
       alert('Wrong. Maybe next time.');
       return questionAnswer;
