@@ -14,6 +14,7 @@ article {
     background-color: #2E78CC;
     width: 25%;
     padding: 10px;
+    box-shadow: 5px 5px 5px 5px rgb(53, 53, 53);
 }
 
 h2 {
