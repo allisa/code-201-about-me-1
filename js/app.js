@@ -1,8 +1,8 @@
 'use strict';
 
 var numberCorrect = 0;
+
 //Ask and check answer for first question
-//function firstQuestion() {
 var a = 1;
 while (a > 0) {
   var questionAnswer1 = prompt('Do I study at Code Fellows?').toLowerCase();
@@ -21,12 +21,10 @@ while (a > 0) {
   }
   else {
     alert('Please respond with "Yes" or "No"');
-    //firstQuestion();
   }
 }
 
 // Ask and check answer for second question
-//function secondQuestion() {
 var b = 1;
 while (b > 0) {
   var questionAnswer2 = prompt('Did I serve in the military?').toLowerCase();
@@ -45,12 +43,10 @@ while (b > 0) {
   }
   else {
     alert('Please respond with "Yes" or "No"');
-    //secondQuestion();
   }
 }
 
 // Ask and check answer for third question
-//function thirdQuestion() {
 var c = 1;
 while (c > 0) {
   var questionAnswer3 = prompt('Am I from Seattle?').toLowerCase();
@@ -69,12 +65,10 @@ while (c > 0) {
   }
   else {
     alert('Please respond with "Yes" or "No"');
-    //thirdQuestion();
   }
 }
 
 // Ask and check answer for fourth question
-//function fourthQuestion() {
 var d = 1;
 while (d > 0) {
   var questionAnswer4 = prompt('Do I have have three dogs at home?').toLowerCase();
@@ -93,12 +87,10 @@ while (d > 0) {
   }
   else {
     alert('Please respond with "Yes" or "No"');
-    //fourthQuestion();
   }
 }
 
 // Ask and check answer for fifth question
-// function fifthQuestion() {
 var e = 1;
 while (e > 0) {
   var questionAnswer5 = prompt('Is my daughter\'s name Emma?').toLowerCase();
@@ -117,12 +109,10 @@ while (e > 0) {
   }
   else {
     alert('Please respond with "Yes" or "No"');
-    //fifthQuestion();
   }
 }
 
 // Ask and check answer for 6th question
-//function sixthQuestion() {
 var f = 4;
 var number = 41;
 while (f >= 1) {
@@ -151,7 +141,6 @@ while (f >= 1) {
 }
 
 // Ask and check answer to seventh question
-//function seventhQuestion() {
 var favFoods = ['sushi', 'ramen', 'bulgogi', 'curry'];
 var userGuesses = 6;
 var userRight = false;
@@ -178,12 +167,3 @@ while (userGuesses > 0) {
 }
 
 alert('You got ' + numberCorrect + ' out of 7!');
-
-// Call functions and log their responses in console
-// firstQuestion();
-// secondQuestion();
-// thirdQuestion();
-// fourthQuestion();
-// fifthQuestion();
-// sixthQuestion();
-// seventhQuestion();
