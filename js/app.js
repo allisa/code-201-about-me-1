@@ -1,8 +1,9 @@
 'use strict';
 
+// Variable that holds tally of correct questions
 var numberCorrect = 0;
 
-//Ask and check answer for first question
+// Ask and check answer for first question
 var a = 1;
 while (a > 0) {
   var questionAnswer1 = prompt('Do I study at Code Fellows?').toLowerCase();
