@@ -1,29 +1,50 @@
 body {
-    background-color: #93C6FF
+    background-color: #93C6FF;
+    font-size: 20px
 }
 
 h1 {
+    font-size: 2em;
     color: #212933;
     text-align: center;
     width: 100%;
     border-bottom: solid 6px;
 }
 
-article {
-    border: 5px solid #212933;
-    background-color: #2E78CC;
-    width: 25%;
-    padding: 10px;
-    box-shadow: 5px 5px 5px 5px rgb(53, 53, 53);
+section {
+    background-color: #5C40DE;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    border: 5px solid;
+    text-align: center;
+    box-shadow: 2px 5px 5px 2px rgb(53, 53, 53);
+}
+
+.top-10 {
+    margin-top: 30px;
+}
+
+.quiz {
+    margin-top: 15px;
 }
 
 h2 {
+    font-size: 1.5em;
     text-decoration: underline;
-    margin-left: 25px;
 }
 
 ol {
-    line-height: 20px;
+    margin-left: 15px;
+    padding: 10px;
+    text-align: left;
+    list-style: decimal;
+    list-style-position: inside;
+    font-size: 1em;
+}
+
+button {
+    margin: 5px 5px;
 }
 
 
