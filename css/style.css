@@ -47,6 +47,24 @@ button {
     margin: 5px 5px;
 }
 
+button:hover {
+    color: red;
+}
+
+ .hide {
+    color: #5C40DE;
+    display: none;
+}
+li:hover .hide {
+    color: black;
+    display: block;
+}
+
+
+
+
+
+
 
 
 
